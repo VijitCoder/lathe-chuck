@@ -41,6 +41,7 @@
 // housing_print_support1();
 // housing_print_support2();
 // jaws();
+// jaw(1);
 // jaw_base();
 // jaw_cap();
 // jaw_complete();
@@ -54,7 +55,7 @@
 // round_corner();
 // round_corner_chuck();
 // torus();
-// spiral();
+// spiral(9, 125, 2.3, 3, 3.8, 100);
 // spiral_thread();
 // gear_screws_cutouts();
 // _screw_cutouts();
