@@ -6,11 +6,11 @@
 
 // Rotation applied for positioning models for printing.
 
-// rotate([180,0,0])
-// {
-//    face_housing();
-//    housing_print_supports();
-// }
+ rotate([180,0,0])
+ {
+    face_housing();
+    housing_print_supports();
+ }
 
 // rear_housing();
 
@@ -43,12 +43,12 @@
 // jaws();
 // jaw_base();
 // jaw_cap();
- jaw_complete();
-//  jaw_cutaway();
+// jaw_complete();
+// jaw_cutaway();
 // jaw_number(number);
 // jaw_point();
 // jaw_point_notch();
- jaw_spiral();
+// jaw_spiral();
 // locking_pins();
 // outer_housing();
 // round_corner();

@@ -20,10 +20,10 @@ About changes see readme.md
 //------- Import libraries ----------
 
 // Parametric Involute Bevel and Spur Gears by GregFrost
-use <libs/parametric_involute_gear_v5.0.scad>;
+use <libs/parametric_involute_gear_v5.0.scad>
 
 // OpenSCAD 3D Text Generator by Phil Greenland, published Mar 10, 2013
-use <libs/TextGenerator.scad>;
+use <libs/TextGenerator.scad>
 
 //------- Import modules ------------
 
@@ -37,6 +37,5 @@ include <modules/housing_print_supports.scad>
 include <modules/rear_housing.scad>
 include <modules/jaw.scad>
 include <modules/scroll.scad>
-
 include <modules/spiral.scad>
 include <modules/screws_plate.scad>
