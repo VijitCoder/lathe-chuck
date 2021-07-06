@@ -20,7 +20,7 @@ About changes see readme.md
 //------- Import libraries ----------
 
 // Parametric Involute Bevel and Spur Gears by GregFrost
-use <libs/parametric_involute_gear_v5.0.scad>
+use <libs/parametric_involute_gear_v5.0.fixed.scad>
 
 // OpenSCAD 3D Text Generator by Phil Greenland, published Mar 10, 2013
 use <libs/TextGenerator.scad>

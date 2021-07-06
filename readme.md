@@ -7,8 +7,31 @@ This is a 3D printing project.
 This repo stores only the source files (scad). There is no generated models because the source is parametric. You should to generate the models corresponding your needs.
 
 I'am **not the author** of this thing. I made this repo because I need to capture **the remix steps** that I will do.
-             
+     
+### External libraries
+
+_parametric_involute_gear_v5.0.fixed.scad_
+
+The original is [here](http://www.thingiverse.com/thing:3575). I changed it in accordance with the requirements of the new OpenSCAD. I know, that is bad, but the author doing nothing with that. So, I fixed the library by myself.
+      
+_TextGenerator.scad_ 
+
+The original is [here](https://www.thingiverse.com/thing:59817). I took the newer version.
+
 ### What is changed
+   
+_07.07.2021_
+                   
+
+Code changes: 
+- Fix the gear library: removed deprecated instructions, as it demands by the newest OpenSCAD. It is about these deprecations:
+> DEPRECATED: The assign() module will be removed in future releases. Use a regular assignment instead.
+
+> DEPRECATED: polyhedron(triangles=[]) will be removed in future releases. Use polyhedron(faces=[]) instead.
+                  
+- Update text generator because of the same deprecation notice.
+
+- Minor improvements.
 
 _25.05.2019_
 
