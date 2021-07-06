@@ -14,21 +14,7 @@ Date : 14/11/2018
 Note : Added 3mm bolt version
 
 Rev : Vijit
-Date : 25.05.2019
-Models changes :
-- lower walls of rear housing, higher the central bushing for the nut M10;
-- added reversed jaws, step up from the center;
-- fixed resolution for the scroll;
-- holes size for screw the scroll and gear ring now depends on bolt sizes, see parameters.scad
-- face housing, risen the cuts for outer nuts at the same height, as cuts in the inner tube. Also made these cuts wider.
-
-Other code changes:
-- decomposition of all-in-one SCAD file to a few files;
-- more purity in the code;
-- remove useless: spiral_thread(), base_plate()
-- rename: rnd_cnr() -> round_corner()
-- rename: rnd_cnr_chuck() -> round_corner_chuck()
-- rename: 3mmscrew_cutouts() -> _screw_cutouts()
+About changes see readme.md
 */
 
 //------- Import libraries ----------
